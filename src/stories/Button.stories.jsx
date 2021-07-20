@@ -34,9 +34,3 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
-
-export const ExtraSmall = Template.bind({});
-ExtraSmall.args = {
-  size: 'small',
-  label: 'Button',
-};
