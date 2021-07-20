@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "http://amritleensingh.github.io/githubPagesDemo1",
   "storybook-deployer": {
-    "gitUsername": "Custom Username",
-    "gitEmail": "custom@email.com",
+    "gitUsername": "amritleensingh",
+    "gitEmail": "amritleensingh.singh@telus.com",
     "commitMessage": "Deploy Storybook [skip ci]"
   },
   "dependencies": {
