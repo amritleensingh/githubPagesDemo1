@@ -16,7 +16,7 @@ jobs:
           npm install
           npm run build-storybook
       - name: Deploy 🚀
-        run: npm run deploy-storybook-deployer -- --ci --host-token-env-variable=GITHUB_TOKEN
+        run: npm run deploy-storybook-deployer -- --ci --host-token-env-variable=${{ secrets.GITHUB_TOKEN }}
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # - name: Deploy 🚀
